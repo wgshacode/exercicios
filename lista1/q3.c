@@ -14,6 +14,6 @@ int main()
 
     resultado = num1 + num2 + num3;
 
-    printf("%d + %d + %d = %d", num1,num2, num3, resultado);
+    printf("O resultado eh %d + %d + %d = %d", num1,num2, num3, resultado);
 }
 

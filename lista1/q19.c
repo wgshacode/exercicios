@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float num, resultado;
+    printf("ola usuario adicione um litros !\n");
+    printf("para converter em centimetro cubicos!\n");
+    scanf("%f", &num);
+
+    resultado = num/100;
+
+    printf("%\.2f \n" , resultado  );
+    system("pause");
+
+    return 0;
+}
